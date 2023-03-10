@@ -38,4 +38,22 @@ Then, removed any establishments within the Dover Local Authority from the datab
  
  Using  the following questions to explore the database, and find the answers,was provided them to the magazine editors.
  
- An analysis file has been imported , the link follows, 
+ An analysis file has been imported , the link follows, https://github.com/MeerKar/NoSql/blob/main/Starter_Code%203/NoSQL_analysis_starter.ipynb
+ 
+ Using count_documents to diplay the number of documents in the result
+ 
+ The first document is displayed using pprint
+ 
+ Then converted the result into Pandas DataFrame.
+ 
+ Following analysis have bben done using this 
+ 
+ 1. Which establishments have a hygiene score equal to 20?
+
+ 2. Which establishments in London have a RatingValue greater than     or equal to 4? For tis $regex method is used .
+
+3. What are the top 5 establishments with a RatingValue of '5',       sorted by lowest hygiene score, nearest to the new restaurant       added, "Penang Flavours"? for this  the geocode is compared to     find the nearest locations. Search within 0.01 degree on either     side of the latitude and longitude.
+
+
+4. How many establishments in each Local Authority area have a       hygiene score of 0? Sort the results from highest to lowest, and   print out the top ten local authority areas. An aggregation         method is used to solve this.
+
